@@ -4,6 +4,7 @@ def is_palindrome(x):
     return str(x)==str(x)[::-1]
 
 x=int(input("Enter an integer: "))
+
 result = is_palindrome(x)
 if result:
     print("The integer is a palindrome.")
